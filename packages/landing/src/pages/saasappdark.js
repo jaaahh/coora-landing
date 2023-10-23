@@ -2,7 +2,6 @@ import ResetCSS from 'common/assets/css/style';
 import AIPhotos from 'common/components/AiPhotos';
 import { DrawerProvider } from 'common/contexts/DrawerContext';
 import { theme } from 'common/theme/saasAppDark';
-import { ConditionWrapper } from 'containers/App/app.style';
 import ProductSlide from 'containers/AppModern/ProductSlide';
 import Banner from 'containers/SaasAppDark/Banner';
 import Footer from 'containers/SaasAppDark/Footer';
@@ -17,18 +16,6 @@ import Head from 'next/head';
 import React, { Fragment, useEffect, useState } from 'react';
 import Sticky from 'react-stickynode';
 import { ThemeProvider } from 'styled-components';
-
-import dynamic from 'next/dynamic';
-
-const FeatureSlider = dynamic(() => import('containers/App/FeatureSlider'), {
-  ssr: false,
-});
-const FeatureSliderTwo = dynamic(
-  () => import('containers/App/FeatureSliderTwo'),
-  {
-    ssr: false,
-  }
-);
 
 function getSize() {
   return {
@@ -93,12 +80,7 @@ const SaasAppDark = () => {
           <AIPhotos />
           <StatsCounter />
           <Testimonials />
-          {/* <ProductSlide /> */}
-
-          <ConditionWrapper id="keyfeature">
-            {size.innerWidth > 1100 ? <FeatureSlider /> : <FeatureSlider />}
-          </ConditionWrapper>
-
+          <ProductSlide />
           <CallToAction />
           <Footer />
         </ContentWrapper>

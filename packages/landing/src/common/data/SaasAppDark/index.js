@@ -228,13 +228,13 @@ export const footer = {
         {
           id: 1,
           title: 'Support Center',
-          link: '#',
+          link: 'https://help.coora.ai',
         },
 
         {
           id: 3,
           title: 'About Us',
-          link: '#',
+          link: './about-us',
         },
 
       ],
@@ -247,12 +247,12 @@ export const footer = {
         {
           id: 2,
           title: 'Privacy Policy',
-          link: '#',
+          link: './privacy-policy',
         },
         {
           id: 3,
           title: 'Terms & Conditions',
-          link: '#',
+          link: './terms-conditions',
         },
 
       ],

@@ -185,9 +185,9 @@ export const designAndBuilt = {
 /* ------------------------------------ */
 // Product  Slide  section
 /* ------------------------------------ */
-import slide1 from 'common/assets/image/appModern/page1.png';
-import slide2 from 'common/assets/image/appModern/page2.png';
-import slide3 from 'common/assets/image/appModern/page3.png';
+import slide1 from 'common/assets/image/screenshots/1.png';
+import slide2 from 'common/assets/image/screenshots/2.png';
+import slide3 from 'common/assets/image/screenshots/3.png';
 
 export const productData = {
   slogan: "PRODUCT SHOWCASE",

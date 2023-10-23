@@ -17,6 +17,8 @@ import ProductSlideWrapper, {
 
 import { productData } from 'common/data/AppModern';
 import SlideMockup from 'common/assets/image/appModern/screen.png';
+import { Autoplay } from 'swiper';
+
 const params = {
   slidesPerView: 5,
   centeredSlides: true,
@@ -67,7 +69,7 @@ const ProductSlide = () => {
               <MockupWrapper>
                 <Image src={SlideMockup?.src} alt="mockup" />
               </MockupWrapper>
-              <Swiper {...params}>
+              <Swiper {...params} modules={[Autoplay]}>
                 {carousel.map((item, index) => (
                   <SwiperSlide key={index}>
                     <Link href={item.link} key={`productSlide--key${item.id}`}>
