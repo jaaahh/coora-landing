@@ -12,8 +12,8 @@ const colors = {
   inactiveField: '#f2f2f2', // 8
   inactiveButton: '#b7dbdd', // 9
   inactiveIcon: '#EBEBEB', // 10
-  primary: '#15E49E', // 11
-  primaryHover: '#11b57e', // 12
+  primary: '#FF700C', // 11
+  primaryHover: '#FF9B3E', // 12
   secondary: '#FF9B3E', // 13
   borderColor: rgba('#0F2137', 0.2), //14
   linkColor: '#2C6FEE', // 15

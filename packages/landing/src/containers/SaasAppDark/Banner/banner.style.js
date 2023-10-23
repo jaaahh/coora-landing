@@ -2,6 +2,7 @@ import { themeGet } from '@styled-system/theme-get';
 
 import { rgba } from 'polished';
 import styled from 'styled-components';
+import titlebg from 'common/assets/image/saasAppDark/title-bg.png';
 
 const Section = styled.section`
 	position: relative;
@@ -19,7 +20,7 @@ export const BannerContent = styled.div`
 	padding-top: 230px;
 	max-width: 915px;
 	margin: 0 auto;
-	text-align: center;
+	text-align: center; 
 	@media (max-width: 1600px) {
 		padding-top: 200px;
 	}
@@ -56,6 +57,7 @@ export const BannerContent = styled.div`
 		span {
 			position: relative;
 			&::before {
+				background: url(${titlebg.src}) center bottom no-repeat;
 				content: '';
 				position: absolute;
 				bottom: -7px;
