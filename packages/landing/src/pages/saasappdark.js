@@ -10,6 +10,7 @@ import { ContentWrapper, GlobalStyle } from 'containers/SaasAppDark/saasAppDark.
 import Services from 'containers/SaasAppDark/Services';
 import StatsCounter from 'containers/SaasAppDark/StatsCounter';
 import Testimonials from 'containers/SaasAppDark/Testimonials';
+import TextToImage from 'containers/SaasAppDark/TextToImage';
 import UpdateScreen from 'containers/SaasModern/UpdateScreen';
 import CallToAction from 'containers/WebAppMinimal/CallToAction';
 import Head from 'next/head';
@@ -78,6 +79,8 @@ const SaasAppDark = () => {
           <UpdateScreen />
 
           <AIPhotos />
+          <TextToImage />
+
           <StatsCounter />
           <Testimonials />
           <ProductSlide />

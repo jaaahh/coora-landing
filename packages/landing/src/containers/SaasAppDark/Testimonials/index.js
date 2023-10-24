@@ -47,14 +47,17 @@ const Testimonials = () => {
           {testimonials.map((testimonial) => (
             <Item key={testimonial.id}>
               <div>
-                <figure>
-                  <Image src={testimonial.logo?.src} alt='logo' style={{width:50, height:50, borderRadius:40, backgroundColor:'#ccc'}} />
-                </figure>
                 <Text as='blockquote' content={testimonial.quote} />
               </div>
               <AuthorInfo>
+              <figure>
+                <Image src={testimonial.logo?.src} alt='logo' className="avatar"/>
+                <div className='detail-container'>
                 <Heading as='h4' content={testimonial.author} />
                 <Text content={testimonial.designation} />
+                </div>
+                </figure>
+
               </AuthorInfo>
             </Item>
           ))}

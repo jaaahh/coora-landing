@@ -107,9 +107,21 @@ export const Item = styled.div`
     padding: 30px 25px 35px;
   }
   figure {
-    margin: 0 0 35px;
+    display: flex !important;
+    flex-direction: row;
+    margin: 0;
+    align-items: center;
     @media only screen and (max-width: 480px) {
       margin-bottom: 20px;
+    }
+    .detail-container {
+      margin-left: 20px;
+    }
+    img {
+      width: 70px;
+      height: 70px;  
+      border-radius: 40px;
+      background-color: #ccc;
     }
   }
   blockquote {

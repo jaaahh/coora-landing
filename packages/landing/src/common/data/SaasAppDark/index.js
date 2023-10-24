@@ -41,9 +41,11 @@ import post1 from 'common/assets/image/saasAppDark/post1.png';
 import post2 from 'common/assets/image/saasAppDark/post2.png';
 import post3 from 'common/assets/image/saasAppDark/post3.png';
 // testimonials section
-import logo1 from 'common/assets/image/saasAppDark/tm-logo1.svg';
-import logo2 from 'common/assets/image/saasAppDark/tm-logo2.svg';
-import logo3 from 'common/assets/image/saasAppDark/tm-logo3.svg';
+import avatar1 from 'common/assets/image/saasAppDark/avatar-1.jpeg';
+import avatar2 from 'common/assets/image/saasAppDark/avatar-2.jpg';
+import avatar3 from 'common/assets/image/saasAppDark/avatar-2.jpg';
+import avatar4 from 'common/assets/image/saasAppDark/avatar-2.jpg';
+
 export const clients = [envato, evernote, forbes, geekwire, slack, usaToday];
 
 
@@ -91,12 +93,27 @@ export const monitoringFeatures = [
   },
 ];
 
+export const textToImageFeatures = [
+  {
+    id: 1,
+    icon: rocket,
+    title: 'Creative Expression',
+    desc: `Say goodbye to the limitations of text. With our Text to Image feature, you can bring your words to life, making your stories and ideas more captivating than ever before.`,
+  },
+  {
+    id: 2,
+    icon: headphone,
+    title: 'Unleash Your Creativity',
+    desc: `Whether you're a professional writer or someone who loves to jot down thoughts, our Text to Image feature unleashes your creative potential in ways you've never imagined.`,
+  },
+];
+
 // stats counter section
 export const statsCounter = {
   blockTitle: {
-    subtitle: 'Monthly Stats',
-    title: `Take your user monitoring experience to new ultimate level with file tracking`,
-    text: 'Pick one of our stock themes, or create your custom theme with the most advanced theme editor on any online survey building tool. It is built to perform and run fast on all of the latest mobile devices. Build out-of the box blazing fast apps with a small footprint and built-in best practices.',
+    subtitle: 'Statistics',
+    title: `Ultimate AI Generation tool for your photos`,
+    text: "Your privacy is our priority. Our app is designed to ensure the safety and security of your photos. You're in control of who sees your moments.",
     button: {
       link: '#',
       label: 'Discover more',
@@ -104,22 +121,22 @@ export const statsCounter = {
   },
   posts: [
     {
-      count: '80',
+      count: '100',
+      title: 'More than',
+      text: 'Models',
+      symbol: '+',
+    },
+    {
+      count: '10',
+      title: 'Community with',
+      text: 'Creators',
+      symbol: 'K+',
+    },
+    {
+      count: '100',
       title: 'Up to',
-      text: 'Customer Response',
+      text: 'Availablity',
       symbol: '%',
-    },
-    {
-      count: '99',
-      title: 'Consistent',
-      text: 'Performance Score',
-      symbol: '%',
-    },
-    {
-      count: '3.5',
-      title: 'Down to',
-      text: 'Response Time',
-      symbol: 'S',
     },
     {
       count: '5x',
@@ -187,28 +204,28 @@ export const posts = [
 export const testimonials = [
   {
     id: 1,
-    logo: logo1,
+    logo: avatar1,
     author: 'Sarah',
     designation: 'Professional Photographer',
     quote: `This app has truly exceeded my expectations. The AI-enhanced images are mind-blowing, and the creative possibilities are endless. It's now an integral part of my toolkit.`,
   },
   {
     id: 2,
-    logo: logo2,
+    logo: avatar2,
     author: 'Mark',
     designation: 'Casual Snapper',
     quote: `My everyday snapshots now look like professional photos, and the auto-editing feature is a real time-saver. I can't imagine posting pictures without it.`,
   },
   {
     id: 3,
-    logo: logo3,
+    logo: avatar3,
     author: 'Emily',
     designation: 'Art Enthusiast',
     quote: `The filters and effects are incredibly versatile, allowing me to create visually stunning images that tell a story. It's like having a virtual art studio right in my pocket.`,
   },
   {
     id: 4,
-    logo: logo1,
+    logo: avatar4,
     author: 'Gracelyn Mason',
     designation: 'Social Media Influencer',
     quote: `This app has given me a unique edge. My followers love the vibrancy and creativity in my posts, thanks to the AI enhancements and filters.`,

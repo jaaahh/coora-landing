@@ -19,14 +19,14 @@ const StatsCounter = () => {
             <Text as="span" className="subtitle" content={subtitle} />
             <Heading as="h2" content={title} />
             <Text as="p" content={text} />
-            <Link href={button.link}>
+            {/* <Link href={button.link}>
               <a className="button">
                 <span>
                   {button.label}
                   <Icon icon={androidArrowForward} size={16} />
                 </span>
               </a>
-            </Link>
+            </Link> */}
           </Box>
           <Box className="postsWrap">
             {posts.map(({ count, text, title, symbol }, index) => (

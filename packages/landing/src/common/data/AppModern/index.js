@@ -188,6 +188,9 @@ export const designAndBuilt = {
 import slide1 from 'common/assets/image/screenshots/1.png';
 import slide2 from 'common/assets/image/screenshots/2.png';
 import slide3 from 'common/assets/image/screenshots/3.png';
+import slide4 from 'common/assets/image/screenshots/4.png';
+import slide5 from 'common/assets/image/screenshots/5.png';
+
 
 export const productData = {
   slogan: "PRODUCT SHOWCASE",
@@ -214,14 +217,14 @@ export const productData = {
 
     {
       id: 4,
-      thumb_url: slide1,
+      thumb_url: slide4,
       link: '#1',
       title: 'slide 4',
     },
 
     {
       id: 5,
-      thumb_url: slide3,
+      thumb_url: slide5,
       link: '#1',
       title: 'slide 5',
     },
