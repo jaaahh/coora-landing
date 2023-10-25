@@ -2,18 +2,18 @@
 export const menu_items = [
   {
     label: 'Home',
-    path: '#home',
-    offset: '70',
+    path: './',
+    staticLink: true
   },
   {
-    label: 'How to',
-    path: '#how-to',
-    offset: '70',
+    label: 'Enhance',
+    path: './enhance',
+    staticLink: true
   },
   {
-    label: 'Testimonials',
-    path: '#testimonials',
-    offset: '70',
+    label: 'Generate',
+    path: './generate',
+    staticLink: true
   },
 
 ];
@@ -251,7 +251,7 @@ export const footer = {
         {
           id: 3,
           title: 'About Us',
-          link: './about-us',
+          link: './about',
         },
 
       ],
@@ -264,12 +264,12 @@ export const footer = {
         {
           id: 2,
           title: 'Privacy Policy',
-          link: './privacy-policy',
+          link: './privacy',
         },
         {
           id: 3,
           title: 'Terms & Conditions',
-          link: './terms-conditions',
+          link: './terms',
         },
 
       ],
