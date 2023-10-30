@@ -1,20 +1,20 @@
 // menu items
 export const menu_items = [
-  {
-    label: 'Home',
-    path: './',
-    staticLink: true
-  },
-  {
-    label: 'Enhance',
-    path: './enhance',
-    staticLink: true
-  },
-  {
-    label: 'Generate',
-    path: './generate',
-    staticLink: true
-  },
+  // {
+  //   label: 'Home',
+  //   path: './',
+  //   staticLink: true
+  // },
+  // {
+  //   label: 'Enhance',
+  //   path: './enhance',
+  //   staticLink: true
+  // },
+  // {
+  //   label: 'Generate',
+  //   path: './generate',
+  //   staticLink: true
+  // },
 
 ];
 
