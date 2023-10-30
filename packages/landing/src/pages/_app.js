@@ -31,7 +31,6 @@ export default function CustomApp({ Component, pageProps }) {
           <title>Coora | Unleash your creativity using Artificial Intelligence</title>
           <meta name="Description" content="React next landing page" />
           <meta name="theme-color" content="#ec5555" />
-          {/* Load google fonts */}
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
           <link

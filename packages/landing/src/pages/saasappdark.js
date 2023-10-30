@@ -14,7 +14,7 @@ const SaasAppDark = () => {
       <>
           <Banner />
           <Services />
-          <UpdateScreen />
+          {/* <UpdateScreen /> */}
 
           <AIPhotos />
           <TextToImage />

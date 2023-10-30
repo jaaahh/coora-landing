@@ -33,7 +33,7 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
       <Container width="1300px">
         <Box {...row}>
           <Logo
-            href="#"
+            href="./"
             logoSrc={logo}
             title="SaaS Creative"
             logoStyle={logoStyle}

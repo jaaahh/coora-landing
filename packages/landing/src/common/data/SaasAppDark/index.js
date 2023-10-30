@@ -240,19 +240,13 @@ export const footer = {
   widgets: [
     {
       id: 2,
-      title: 'About Us',
+      title: 'Help',
       list: [
         {
           id: 1,
           title: 'Support Center',
           link: 'https://help.coora.ai',
-        },
-
-        {
-          id: 3,
-          title: 'About Us',
-          link: './about',
-        },
+        }
 
       ],
     },

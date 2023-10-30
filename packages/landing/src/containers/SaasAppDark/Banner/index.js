@@ -31,20 +31,21 @@ const Banner = () => {
               className="animate__animated animate__fadeInUp"
               content="Unlock the limitless potential of your images with our cutting-edge AI Image Social Media App!."
             />
+            
             <Buttons>
               <Button
                 colors="primary"
                 title="Download"
                 className="button-one"
               />
-              <button className="button-two" onClick={() => setModal(true)}>
+              {/* <button className="button-two" onClick={() => setModal(true)}>
                 <span className="play-icon">
                   <img src={playIcon?.src} alt="play Icon" />
                 </span>
                 <span className="btn-txt">
                   <span className="primary">Explore</span> Intro Video
                 </span>
-              </button>
+              </button> */}
             </Buttons>
           </BannerContent>
           <Figure className="hero-banner">

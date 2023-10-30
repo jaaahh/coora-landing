@@ -9,6 +9,10 @@ import Section, {
   FeatureList, FigureGroup, Grid
 } from './monitoring.style';
 
+import texttoimage from '../../../common/assets/image/text_to_image.png';
+
+
+
 const TextToImage = () => {
   return (
     <Section>
@@ -37,13 +41,9 @@ const TextToImage = () => {
           </Content>
           <FigureGroup>
             <Fade up>
-              <img src={"https://images.prismic.io/remini-marketing-website/d4e548d5-6064-4e07-a982-ea39937a4c2f_ai-photos-home.webp?auto=compress%2Cformat&fit=max&w=1440"} alt="report1" />
+              <img src={texttoimage.src} alt="report1" />
             </Fade>
-            <div className="graph-2">
-              <Fade up delay={200}>
-                <img src={"https://images.prismic.io/remini-marketing-website/d4e548d5-6064-4e07-a982-ea39937a4c2f_ai-photos-home.webp?auto=compress%2Cformat&fit=max&w=1440"} alt="report2" />
-              </Fade>
-            </div>
+   
           </FigureGroup>
 
         </Grid>
